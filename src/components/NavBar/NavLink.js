@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const NavLink = () => {
+export const NavLink = (props) => {
     return (
-        <div className='nav-btn-div'>
-            <button className='nav-link-btn' type="button">{this.props.btnName}</button> 
+        <div className='nav-link-div'>
+            <a href={props.to} className='nav-link' >{props.name}</a>
         </div>
     )
 }
