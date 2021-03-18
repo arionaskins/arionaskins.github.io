@@ -11,10 +11,10 @@ export default class NavBar extends React.Component {
 
            <nav className='nav-bar-container'>
                <div className='nav-menu'>
-                    <NavLink  to='' name={'About'}  />
-                    <NavLink  to='' name={'What I Do'}  />
-                    <NavLink  to='' name={'Projects'}  />
-                    <NavLink  to='' name={'Contact'}  />
+                    <NavLink  to='#about' name={'About'} active='' />
+                    <NavLink  to='#whatIdo' name={'What I Do'} active='' />
+                    <NavLink  to='#projects' name={'Projects'}  active=''/>
+                    <NavLink  to='' name={'Contact'} active='' />
                 </div>
             </nav>
         );

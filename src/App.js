@@ -1,11 +1,21 @@
 import './styles/App.css';
 import NavBar from './components/NavBar/NavBar.js';
+import Main from './pages/main.js'
+import About from './pages/about.js';
+import Strengths from './pages/whatIdo.js';
+import Projects from './pages/projects.js';
 
 function App() {
   return (
     <div className="App">
+      
+      {/* Pages */}
       <NavBar />
-      <h1>Arion Askins</h1>
+      <Main />
+      <About />
+      <Strengths />
+      <br />
+      <Projects />
       
 
     </div>
@@ -13,3 +23,4 @@ function App() {
 }
 
 export default App;
+

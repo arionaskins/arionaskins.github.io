@@ -1,16 +1,19 @@
 .App {
-  text-align: center;
+
 }
 
 .nav-link {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
+  letter-spacing: .2rem;
   
 }
 
 /* handle styling for larger/desktop viewports */
 
 @media only screen  and (min-width : 625px) {
+  /* nav bar styling */
+
   .nav-bar-container {
     display: flex;
     height: 85px;
@@ -21,12 +24,62 @@
 
   .nav-menu {
     display: flex;
-    padding-right: 2.5rem;
+    padding-right: 1.7rem;
   }
 
   .nav-link-div {
     padding: 1.7rem 1rem 1.7rem;
     
+  }
+
+  /* main page styling */
+
+  .main-container {
+    width: 100vw;
+    height: 70vh;
+    background-color: red;
+  }
+
+  /* about page styling */
+
+  .about-container {
+    height: 70vh;
+  }
+  
+  .about-sections-container {
+    display: flex;
+    flex: 2 1;
+  }
+
+  #about-left {
+    background-color: rgb(255, 165, 0, .8);
+    color: white
+  }
+
+  #about-right {  
+    background-color: rgba(255, 213, 136, 0.541);
+  }
+
+  .about-resume-link {
+    padding-top: 1.25rem;
+    margin-left: 3rem;
+  }
+
+    /* about page styling */
+
+    .strength-cards-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(175, 252, 255, .4);
+    }
+    .strength-card {
+      padding: 2rem;
+    }
+
+  #projects {
+    padding-top: 3rem;
   }
 }
 
