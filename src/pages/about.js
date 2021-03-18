@@ -34,15 +34,18 @@ export default class About extends React.Component {
                                     className='about-list-titles'>Education: </span>
                                         University of Maryland, College Park (College Park, MD)</p> 
                             </li>
-                                <li>
-                                    <p>
-                                    <span className='about-list-titles'>Major: </span>Information Science</p> 
-                                </li>
-                                <li>
-                                    <p><span
-                                    className='about-list-titles'>Minor: </span>
-                                    Human Development & Quantitative Methodology</p> 
-                                </li>
+                            
+                                <ul>
+                                    <li>
+                                        <p><span className='about-list-titles'>Major: </span>Information Science</p> 
+                                    </li>
+                                    <li>
+                                        <p><span
+                                            className='about-list-titles'>Minor: </span>
+                                            Human Development & Quantitative Methodology</p> 
+                                    </li>
+                                </ul>
+                            
                             <li>
                             <p><span className='about-list-titles'>Hobbies: </span></p> 
                             </li>
@@ -52,9 +55,9 @@ export default class About extends React.Component {
 
                 <p className='about-resume-link'>
                         Resume: 
-                        <a href='https://go.umd.edu/arionaskins2021'> Drive | </a>
-                        <a href=' '>Word | </a>
-                        <a href=' '>PDF</a>
+                        <span> <a href=' '> Word</a> </span>| 
+                        <span> <a href=' '> PDF</a> </span>|
+                        <span> <a href='https://go.umd.edu/arionaskins2021'>Drive</a></span>
                 </p>
 
             </div>
