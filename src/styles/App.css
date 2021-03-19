@@ -15,8 +15,9 @@
 
   .nav-bar-container {
     display: flex;
+    position: -webkit-sticky;
+    top: 0;
     height: 85px;
-    width: 100vw;
     background-color: rgb(44, 5, 5);
     justify-content: flex-end;
   }
@@ -34,7 +35,6 @@
   /* main page styling */
 
   .main-container {
-    width: 100vw;
     height: 70vh;
     background-color: red;
   }
@@ -79,6 +79,10 @@
 
   #projects {
     padding-top: 3rem;
+  }
+
+  section {
+    padding: 2rem;
   }
 }
 
