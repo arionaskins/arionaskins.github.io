@@ -5,6 +5,8 @@ export default class Contact extends Component {
     render() {
         return (
             <div>
+                <h2>Leave Me A Message!</h2>
+
                 {/* aside (flex? center jsutify/align)
                     h2 cardTitle
                     div social-btns-container (flex column mobile)
