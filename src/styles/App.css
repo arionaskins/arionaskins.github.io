@@ -64,7 +64,7 @@
     margin-left: 3rem;
   }
 
-    /* about page styling */
+    /* what I do page styling */
 
     .strength-cards-container {
       display: flex;
@@ -77,12 +77,33 @@
       padding: 2rem;
     }
 
+    /* projects page styling */
+
   #projects {
     padding-top: 3rem;
   }
 
   section {
     padding: 2rem;
+  }
+
+  .project-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  .project-card {
+    max-width: 16.25rem;
+    padding: 0px 1rem;
+  }
+
+  footer {
+    background: rgb(3, 29, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
 

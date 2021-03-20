@@ -1,5 +1,5 @@
 import React from 'react';
-import StrengthCard from '../components/StrengthCard.js'
+import StrengthCard from '../components/Cards/StrengthCard.js'
 
 export default class Strengths extends React.Component {
     constructor(props) {
