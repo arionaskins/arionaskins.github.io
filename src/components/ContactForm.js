@@ -1,9 +1,6 @@
 import React from 'react'
   
-  export default class ContactForm extends React.Component {
-
-
-      render() {
+const ContactForm = () => { 
         return (
             <form className='myForm' onSubmit={event => this.props.handleSubmit(event)} >
             <h4 id='dob-inputs-label'> Enter your birthday below </h4>
@@ -45,13 +42,12 @@ import React from 'react'
             <label htmlFor="textarea">Message</label>
             <textarea
             
-            onChange={this.handleChange}
             rows={5}
             cols={5} />
 
-{/* <input type="tel" id="phone" name="phone"
-       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-       required> */}
+            <input type="tel" id="phone" name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required />
         </fieldset>
 
             <div>
@@ -60,4 +56,5 @@ import React from 'react'
         </form>
         )
       }
-    }
+
+export default ContactForm;
