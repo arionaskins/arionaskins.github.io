@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
     }
     render() {
         return (
-            <div id='projects'>
+            <div className='projects' id='projects'>
                 <h2>PrOJEKKts</h2>
 
                 <div className='project-card-container'> {/* flex column, justify space around, alighn center*/}

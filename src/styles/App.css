@@ -1,23 +1,35 @@
-.App {
+#title {
+  font-size: calc(6vw + 6 * ((100vw - 600px) / 1000));
+  margin-bottom: calc(0.5rem - 0.1vh);
 
 }
 
 .nav-link {
   font-family: 'Lato', sans-serif;
-  letter-spacing: .2rem;
+  letter-spacing: .15rem;
   
 }
 
 /* handle styling for larger/desktop viewports */
 
 @media only screen  and (min-width : 625px) {
+
+  #typist {
+    font-weight: bolder;
+    font-size: calc(2vw + 6 * ((100vw - 600px) / 1000));
+  }
+
+  button {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+  }
   /* nav bar styling */
 
   .nav-bar-container {
     display: flex;
     position: sticky;
     top: 0;
-    height: 85px;
+    height: 75px;
     background-color: rgb(44, 5, 5);
     justify-content: flex-end;
   }
@@ -39,6 +51,9 @@
     background-color: red;
   }
 
+  .buttons-container {
+    margin-top: calc(0.5rem + 1vh);
+  }
   /* about page styling */
 
   .about-container {
@@ -69,12 +84,16 @@
     .strength-cards-container {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       background-color: rgb(175, 252, 255, .4);
     }
     .strength-card {
       padding: 2rem;
+    }
+
+    .odd {
+      background-color: rgb(255, 251, 230);
     }
 
     /* projects page styling */
@@ -95,8 +114,34 @@
   .project-card {
     max-width: 16.25rem;
     padding: 0px 1rem;
-    box-shadow: 10px 5px 5px rgb(0, 43, 2);
+    box-shadow: 6px 5px 5px rgb(0, 43, 2);
   }
+
+      /* contact page styling */
+
+      #contact {
+        text-align: center;
+        background-color: rgb(255, 251, 230);
+      }
+
+      form {
+        margin: 1% auto;
+    width: 30vw;
+    border-radius: 2.5%;
+    border-style: solid;
+    border-width: .01em;
+    border-color: lightgray;
+    padding: 2rem;
+      }
+    .req {
+      color: red;
+    }
+    
+      
+      /* projects page styling */
+
+
+      /* footer page styling */
 
   footer {
     background: rgb(3, 29, 0);
@@ -111,8 +156,7 @@
 /* handle styling for small device viewports */
 
 @media only screen  and (max-width : 450px) {
-
+  .strengths-card-container {
+    flex-wrap: wrap;
+  }
 }
-
-
-
