@@ -1,14 +1,15 @@
 import React from 'react'
 
-const StrengthCard = () => { 
+const StrengthCard = (props) => { 
 
         return ( 
-            <div className='strength-card' id={'this.props.id'}>
-                <div className='strength-icon' href={'this.props.iconSrc'} alt={'this.props.altTxt'}>img hea</div>
-                <div><h4 className='strength-title'>{'this.props.cardTitle'}</h4></div>
-                {'this.props.children'}
+            <div className={`strength-card ${ props.class }`} id={props.id}>
+                <div className='strength-icon' id={`${props.id}-icon`} alt={props.altTxt}></div>
+                <div><h4 className='strength-title'>{props.cardTitle}</h4></div>
+                {props.children}
             </div>
          );
 }
+ 
 
 export default StrengthCard;
