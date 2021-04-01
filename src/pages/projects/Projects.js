@@ -18,7 +18,8 @@ export default class Projects extends React.Component {
                         <div className='project-card' key={index}>
                             <ProjectCard
                                 name={project.project_name} 
-                                description={project.description} />
+                                description={project.description}
+                                url={project.link} />
                         </div>
                     ))}
 
@@ -28,6 +29,8 @@ export default class Projects extends React.Component {
         )
     }
 }
+
+
 
 // json must be right to run
 //     all project keys and values

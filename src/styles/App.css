@@ -22,7 +22,11 @@
   button {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-  }
+    height: 5vh;
+    width: 11vw;
+    border-radius: 0.75vh;
+}
+  
   /* nav bar styling */
 
   .nav-bar-container {
@@ -47,8 +51,8 @@
   /* main page styling */
 
   .main-container {
-    height: 70vh;
-    background-color: red;
+      height: 50vh;
+      padding-left: calc(3vw + 3 * ((100vw - 600px) / 1000));
   }
 
   .buttons-container {
@@ -92,6 +96,11 @@
       padding: 2rem;
     }
 
+    .strength-icon {
+      height: 4.5rem;
+      width: auto;
+    }
+
     .odd {
       background-color: rgb(255, 251, 230);
     }
@@ -110,7 +119,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+  }
   .project-card {
     max-width: 16.25rem;
     padding: 0px 1rem;
@@ -151,8 +160,8 @@
     justify-content: center;
     text-align: center;
   }
-}
 
+}
 /* handle styling for small device viewports */
 
 @media only screen  and (max-width : 450px) {

@@ -1,5 +1,6 @@
 import React from 'react';
-import StrengthCard from '../components/Cards/StrengthCard.js'
+import StrengthCard from '../../components/Cards/StrengthCard.js';
+import icons from './strength-icons.js'
 
 export default class Strengths extends React.Component {
     constructor(props) {
@@ -16,7 +17,8 @@ export default class Strengths extends React.Component {
                     <StrengthCard
                         id='analyze' 
                         class='even'
-                        altTxt='nun'
+                        icon={icons.analyze}
+                        altTxt='desktop with graph and calculations'
                         cardTitle='Analyze'>
                             <span className='card-text'>I have a vast knowledge in software and libraries for computational/statistical analysis.
                             I am passionate in quality data preprocessing and cleaning to ensure maximum
@@ -27,7 +29,8 @@ export default class Strengths extends React.Component {
                     <StrengthCard
                         id='design' 
                         class='odd'
-                        altTxt='nun'
+                        icon={icons.design}
+                        altTxt='tools for creative design (ruler, etc)'
                         cardTitle='Design'>
                             <span className='card-text'>I have a vast knowledge in software and libraries for computational/statistical analysis.
                             I am passionate in quality data preprocessing and cleaning to ensure maximum
@@ -38,7 +41,8 @@ export default class Strengths extends React.Component {
                     <StrengthCard
                         id='collab' 
                         class='even'
-                        altTxt='nun'
+                        icon={icons.collab}
+                        altTxt='team working on task icon'
                         cardTitle='Collaborate'>
                         <span className='card-text'>I have a vast knowledge in software and libraries for computational/statistical analysis.
                             I am passionate in quality data preprocessing and cleaning to ensure maximum
@@ -49,8 +53,9 @@ export default class Strengths extends React.Component {
                     <StrengthCard
                         id='develop' 
                         class='odd'
-                        altTxt='nun'
-                        cardTitle='Innovate'>
+                        icon={icons.develop}
+                        altTxt='algorithm icon with desktop'
+                        cardTitle='Develop'>
                             <span className='card-text'>I have a vast knowledge in software and libraries for computational/statistical analysis.
                             I am passionate in quality data preprocessing and cleaning to ensure maximum
                             accuracy in results. I have utiized technologies such as Microsoft Excel, pandas, numPy, and Tableau.

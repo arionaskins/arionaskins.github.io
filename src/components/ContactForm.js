@@ -5,6 +5,9 @@ const ContactForm = () => {
         return (
             <form className='myForm' onSubmit={event => this.props.handleSubmit(event)} >
               <fieldset className='dob-input-container' style={{border: "5px"}}>
+                
+                <h2>Leave Me A Message!</h2>
+                <p>I like constructive feedback :)</p>
 
                     <div className='form-item'>
                       <label htmlFor="name-input">Name<span className='req'>*</span></label>

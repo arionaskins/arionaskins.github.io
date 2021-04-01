@@ -3,7 +3,7 @@ import './styles/App.css';
 import NavBar from './components/NavBar/NavBar.js';
 import Main from './pages/main.js'
 import About from './pages/about.js';
-import Strengths from './pages/whatIdo.js';
+import Strengths from './pages/whatIdo/whatIdo.js';
 import Projects from './pages/projects/Projects.js';
 import Contact from './pages/contact.js';
 import Footer from './components/Footer.js'
@@ -22,7 +22,7 @@ function App() {
       <Projects />
       <br />
       <Contact />
-      
+      <br /> 
       <Footer />
 
     </div>
