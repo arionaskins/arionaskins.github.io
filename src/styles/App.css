@@ -99,7 +99,6 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      background-color: rgb(175, 252, 255, .4);
     }
     .strength-card {
       padding: 2rem;
