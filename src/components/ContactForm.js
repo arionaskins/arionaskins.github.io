@@ -6,9 +6,6 @@ const ContactForm = () => {
             <form className='myForm' onSubmit={event => this.props.handleSubmit(event)} >
               <fieldset className='dob-input-container' style={{border: "5px"}}>
                 
-                <h2>Leave Me A Message!</h2>
-                <p>I like constructive feedback :)</p>
-
                     <div className='form-item'>
                       <label htmlFor="name-input">Name<span className='req'>*</span></label>
                       <input  type='text' 
@@ -51,7 +48,7 @@ const ContactForm = () => {
               </fieldset>
 
             <div>
-             <button className='btn' id='btn' type="submit">SUBMIT</button> 
+             <button className='btn' id='submit' type="submit">SUBMIT</button> 
             </div>      
         </form>
         )

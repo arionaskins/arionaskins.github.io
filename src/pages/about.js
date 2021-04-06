@@ -16,7 +16,7 @@ export default class About extends React.Component {
                         B.S. in Information Science and a minor in Human Development & Quantitative Methodology. </p>
                     
                         <p>I enjoy using technology in working with data to investigate and solve societal information problems. </p>
-
+                        <img alt='yea' src='../components/md.png' ></img>
                     </section>
 
                     <section className='about-section' id='about-right' >

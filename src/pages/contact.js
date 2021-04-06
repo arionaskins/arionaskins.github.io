@@ -13,7 +13,9 @@ export default class Contact extends Component {
     render() {
         return (
             <div id='contact' className='contact'>
-                
+                <h2>Leave Me A Message!</h2>
+                <p>I like constructive feedback :)</p>
+
 
                 {/* aside (flex? center jsutify/align)
                     h2 cardTitle
