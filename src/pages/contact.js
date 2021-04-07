@@ -13,8 +13,8 @@ export default class Contact extends Component {
     render() {
         return (
             <div id='contact' className='contact'>
-                <h2>Leave Me A Message!</h2>
-                <p>I like constructive feedback :)</p>
+                <h2 id='contact-hdr'>Leave Me A Message!</h2>
+                <p id='contact-subhdr'>I like constructive feedback :)</p>
 
 
                 {/* aside (flex? center jsutify/align)

@@ -99,9 +99,9 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      background-color: rgb(175, 252, 255, .4);
     }
     .strength-card {
+      color: rgb(3, 29, 0);
       padding: 2rem;
     }
 
@@ -111,13 +111,14 @@
     }
 
     .odd {
-      background-color: rgb(255, 251, 230);
+      background-color: r;
     }
 
     /* projects page styling */
 
   #projects {
     padding-top: 3rem;
+    background-image: url('../pages/projects/light-bckgrnd.jpg');
   }
 
   section {
@@ -141,6 +142,10 @@
         text-align: center;
       }
 
+      #contact-hdr, #contact-subhdr {
+        color: rgb(3, 29, 0);
+      }
+
       form {
         background-color: rgb(255, 251, 230);
         margin: 1% auto;
@@ -150,12 +155,19 @@
         border-style: solid;
         border-width: .01em;
         border-color: lightgray;
-        color:rgb(3, 29, 0);
+        color: rgb(3, 29, 0);
         padding: 2rem;
       }
       #submit {
         height: 2rem;
+        color: rgb(3, 29, 0);
+        background-color: #FD5523;
+
+      } #submit:hover {
+        border-color: rgb(3, 29, 0);
       }
+
+
     .req {
       color: red;
     }
@@ -164,8 +176,20 @@
       margin-left: 0px;
       margin-bottom: 3%;
       margin-top: 1.25%;
-    }
+      padding: .5rem 0 .5rem .5rem;
+      border-radius: .2rem;
+      border-style: solid;
       
+
+    } input:hover, textarea:hover {
+      border-color: #A4BF76;
+  
+    } input:active, input:focus, textarea:active, textarea:focus {
+      border-color: #FD5523;
+
+    } input::placeholder, textarea::placeholder {
+        
+    }
     .form-item {
       display: flex;
       flex-direction: column;
@@ -178,8 +202,8 @@
       /* footer page styling */
 
   footer {
-    background: rgb(3, 29, 0);
-    color: white;
+    background-color: #A4BF76;
+    color: rgb(3, 29, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
