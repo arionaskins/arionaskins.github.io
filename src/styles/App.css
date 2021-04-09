@@ -4,11 +4,6 @@
 
 }
 
-.nav-link {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: .15rem;
-  
-}
 
 /* handle styling for larger/desktop viewports */
 
@@ -35,10 +30,12 @@
 
   .nav-bar-container {
     display: flex;
-    position: sticky;
+    position: fixed;
     top: 0;
     height: 75px;
-    background-color: rgb(44, 5, 5);
+    width: 100vw;
+    background-color: rgb(255, 255, 255, .95);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     justify-content: flex-end;
   }
 
@@ -48,10 +45,27 @@
   }
 
   .nav-link-div {
-    padding: 1.7rem 1rem 1.7rem;
-    
+    padding: 1.7rem 1rem 1.7rem; 
   }
 
+  .nav-link {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .15rem;
+    color: rgb(0, 43, 2);
+    text-decoration: none;
+    
+  } .nav-link:hover {
+    background-color: rgba(255, 213, 136, 0.541);
+    
+  } .nav-link:active {
+    background-color: #FD5523;
+    color: whitesmoke;
+  }
+
+  #nav-contact {
+    color: #FD5523;
+  }
+  
   /* main page styling */
 
   .main-container {
@@ -64,7 +78,7 @@
     margin-top: calc(0.5rem + 1vh);
   }
   #typist, #title {
-    color: #1E4F00;
+    color: rgb(3, 29, 0);
   }
 
   /* about page styling */
@@ -92,6 +106,10 @@
     margin-left: 3rem;
   }
 
+  .about-list-titles {
+    font-weight: bold;
+  }
+
     /* what I do page styling */
 
     .strength-cards-container {
@@ -111,7 +129,7 @@
     }
 
     .odd {
-      background-color: r;
+      background-color: rgb(185, 228, 201, .3);
     }
 
     /* projects page styling */
@@ -161,10 +179,11 @@
       #submit {
         height: 2rem;
         color: rgb(3, 29, 0);
-        background-color: #FD5523;
 
       } #submit:hover {
         border-color: rgb(3, 29, 0);
+        background-color: #FD5523;
+        box-shadow: 1px 0  rgb(3, 29, 0);
       }
 
 
@@ -212,6 +231,8 @@
 
   }
 
+ 
+  
 }
 /* handle styling for small device viewports */
 
