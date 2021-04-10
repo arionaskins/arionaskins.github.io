@@ -7,6 +7,7 @@ import Strengths from './pages/whatIdo/whatIdo.js';
 import Projects from './pages/projects/Projects.js';
 import Contact from './pages/contact.js';
 import Footer from './components/Footer.js'
+import icons from './icons';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <br /> 
       <Footer />
 
+      <button className='arrow'><img alt='arrow up' id='arrow' src={icons.arrow}></img></button>
     </div>
   );
 }

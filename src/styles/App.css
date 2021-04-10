@@ -1,3 +1,7 @@
+.wrapper {
+  min-height: 100%;
+}
+
 #title {
   font-size: calc(6vw + 6 * ((100vw - 600px) / 1000));
   margin-bottom: calc(0.5rem - 0.1vh);
@@ -72,6 +76,7 @@
       height: 50vh;
       padding-left: calc(3vw + 3 * ((100vw - 600px) / 1000));
       text-align: center;
+      background-image: url('../r.jpg');
   }
 
   .buttons-container {
@@ -221,7 +226,10 @@
       /* footer page styling */
 
   footer {
-    background-color: #A4BF76;
+    background: rgb(164,191,118);
+    background: linear-gradient(0deg, rgba(164,191,118,1) 0%, rgba(164,191,118,1) 17%,
+                               rgba(168,194,123,1) 36%, rgba(175,199,134,1) 47%,
+                               rgba(226,234,211,1) 68%, rgba(236,241,226,1) 79%, rgba(255,255,255,1) 90%);
     color: rgb(3, 29, 0);
     display: flex;
     flex-direction: column;
@@ -231,8 +239,19 @@
 
   }
 
- 
-  
+  .footer-icon {
+    width: 50px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  #github {
+    margin-left: 42px;
+  }
+
+  #arrow {
+    background-color: #FD5523;
+  }
 }
 /* handle styling for small device viewports */
 
