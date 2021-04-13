@@ -16,25 +16,9 @@ export default class Contact extends Component {
                 <h2 id='contact-hdr'>Leave Me A Message!</h2>
                 <p id='contact-subhdr'>I like constructive feedback :)</p>
 
-
-                {/* aside (flex? center jsutify/align)
-                    h2 cardTitle
-                    div social-btns-container (flex column mobile)
-                        <SocialMediaBtn
-                            icon={'iconPath'}
-                            name={'SM'}> />
-                        <SocialMediaBtn
-                            icon={'iconPath'}
-                            name={'SM'}> />
-                        <SocialMediaBtn
-                            icon={'iconPath'}
-                            name={'SM'}> />
-                    (handle form stuff at top of contact  */}
                     <ContactForm />
 
                 
-
-
             </div>
         )
     }

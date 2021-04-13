@@ -6,13 +6,13 @@ export default class ProjectCard extends Component {
         return (
             <>
                 <div id='project-card-top'> 
-                <p>icon♥</p>
-                <p className='tag'>Tag</p>
+                <p className='heart' >&#9825;</p>
+                <p className='tag'>{this.props.tag}</p>
                 </div>
                 <div id='project-card-bttm'>
                         <h4>{this.props.name}</h4>
                         <p>{this.props.description}</p>
-                        <a href={this.props.url}>View on Git</a>
+                        <a href={this.props.url} className='view-code-link'>view code &#62;</a>
                 </div>
             </>
         )

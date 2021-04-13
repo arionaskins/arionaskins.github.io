@@ -19,9 +19,16 @@ export default class Projects extends React.Component {
                             <ProjectCard
                                 name={project.project_name} 
                                 description={project.description}
-                                url={project.link} />
+                                url={project.link} 
+                                tag={project.tag} />
                         </div>
                     ))}
+                    <div class="project-card">
+                        <div id="project-card-top">
+                            <p>icon♥</p>
+                            <p class="tag">Tag</p>
+                        </div>
+                    </div>
 
 
                 </div>

@@ -20,9 +20,11 @@ export default class Strengths extends React.Component {
                         icon={icons.analyze}
                         altTxt='desktop with graph and calculations'
                         cardTitle='Analyze'>
-                            <span className='card-text'>I have a vast knowledge in software and libraries for computational/statistical analysis.
-                            I am passionate in quality data preprocessing and cleaning to ensure maximum
-                            accuracy in results. I have utiized technologies such as Microsoft Excel, pandas, numPy, and Tableau.
+                            <span className='card-text'>
+                                I have a vast experience in software and libraries for computational analysis
+                                and statistical modelling of large datasets. I am passionate in quality 
+                                data preprocessing and cleaning to ensure maximum accuracy in results. 
+                                Some python libraries I have utilized are scikit-learn and pandas.
                             </span>
                     </StrengthCard>
 

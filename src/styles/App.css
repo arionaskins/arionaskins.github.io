@@ -13,6 +13,7 @@
 
 @media only screen  and (min-width : 625px) {
 
+  
   #typist {
     font-weight: bolder;
     font-size: calc(2vw + 6 * ((100vw - 600px) / 1000));
@@ -84,6 +85,7 @@
   }
   #typist, #title {
     color: rgb(3, 29, 0);
+    text-shadow: 2px 2px 5px rgb(164,191,118);
   }
 
   /* about page styling */
@@ -95,6 +97,7 @@
   .about-sections-container {
     display: flex;
     flex: 2 1;
+    justify-content: center;
   }
 
   #about-left {
@@ -104,7 +107,10 @@
 
   #about-right {  
     background-color: rgba(255, 213, 136, 0.541);
+    color: rgb(0, 43, 2);
   }
+
+
 
   .about-resume-link {
     padding-top: 1.25rem;
@@ -142,6 +148,7 @@
   #projects {
     padding-top: 3rem;
     background-image: url('../pages/projects/light-bckgrnd.jpg');
+    padding: 3rem 0;
   }
 
   section {
@@ -150,13 +157,37 @@
 
   .project-card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   .project-card {
     max-width: 16.25rem;
     padding: 0px 1rem;
+    margin-top: 1rem;
     box-shadow: 6px 5px 5px rgb(0, 43, 2);
+    background-color: rgb(255, 251, 230);
+    border-radius: 1.3rem;
+    margin: 1rem 0;
+  }
+
+  #project-card-bttm {
+    padding-bottom: 1rem;
+}
+
+  .tag {
+    width: max-content;
+    background-color: #A4BF76;
+    padding: 4px 5px;
+    line-height: 0.9;
+    line-height: 0.9;
+    font-size: 12px;
+    font-family: 'Lato', 'sans-serif';
+    text-transform: uppercase;
+    border-radius: 3px;
+  }
+
+  .view-code-link {
+    color: #FD5523;
   }
 
       /* contact page styling */
@@ -180,15 +211,20 @@
         border-color: lightgray;
         color: rgb(3, 29, 0);
         padding: 2rem;
+        max-width: 30rem;
       }
+
       #submit {
         height: 2rem;
-        color: rgb(3, 29, 0);
+        color: #FD5523;
+        background-color: transparent;
+        border-color: #FD5523;
 
       } #submit:hover {
-        border-color: rgb(3, 29, 0);
-        background-color: #FD5523;
-        box-shadow: 1px 0  rgb(3, 29, 0);
+          border-color: #FD5523;
+          background-color: #FD5523;
+          color: white;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 6px -2px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       }
 
 
@@ -209,19 +245,18 @@
       border-color: #A4BF76;
   
     } input:active, input:focus, textarea:active, textarea:focus {
-      border-color: #FD5523;
+        border-color: #FD5523;
+        font-family: 'Fira Sans', sans-serif;
 
     } input::placeholder, textarea::placeholder {
-        
+        font-family: 'Fira Sans', sans-serif;
+
     }
     .form-item {
       display: flex;
       flex-direction: column;
       text-align: justify;
     }
-
-      /* projects page styling */
-
 
       /* footer page styling */
 
@@ -240,7 +275,7 @@
   }
 
   .footer-icon {
-    width: 50px;
+    width: 40px;
     height: auto;
     margin-top: 5px;
   }
@@ -251,6 +286,12 @@
 
   #arrow {
     background-color: #FD5523;
+    width: 3.2rem;
+    height: auto;
+    border-radius: 100%;
+    position: fixed;
+    right: 55px;
+    bottom: 80px;
   }
 }
 /* handle styling for small device viewports */

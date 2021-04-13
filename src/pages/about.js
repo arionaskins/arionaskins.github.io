@@ -16,7 +16,13 @@ export default class About extends React.Component {
                         B.S. in Information Science and a minor in Human Development & Quantitative Methodology. </p>
                     
                         <p>I enjoy using technology in working with data to investigate and solve societal information problems. </p>
-                        <img alt='yea' src='../components/md.png' ></img>
+                        <p className='about-resume-link'>
+                            Resume: 
+                            <span> <a href=' '> Word</a> </span>| 
+                            <span> <a href=' '> PDF</a> </span>|
+                            <span> <a href='https://go.umd.edu/arionaskins2021'>Drive</a></span>
+                        </p>
+                <img alt='yea' src='../components/md.png' ></img>
                     </section>
 
                     <section className='about-section' id='about-right' >
@@ -53,15 +59,12 @@ export default class About extends React.Component {
                     </section> 
                 </div> {/* sections container */}
 
-                <p className='about-resume-link'>
-                        Resume: 
-                        <span> <a href=' '> Word</a> </span>| 
-                        <span> <a href=' '> PDF</a> </span>|
-                        <span> <a href='https://go.umd.edu/arionaskins2021'>Drive</a></span>
-                </p>
+                
 
             </div>
          );
     }
 }
  
+
+

@@ -26,7 +26,7 @@ function App() {
       <br /> 
       <Footer />
 
-      <button className='arrow'><img alt='arrow up' id='arrow' src={icons.arrow}></img></button>
+      <a href='#main' className='arrow'><img alt='arrow up' id='arrow' src={icons.arrow}></img></a>
     </div>
   );
 }
