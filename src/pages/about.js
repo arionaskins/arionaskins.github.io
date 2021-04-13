@@ -53,12 +53,19 @@ export default class About extends React.Component {
                                 </ul>
                             
                             <li>
-                            <p><span className='about-list-titles'>Hobbies: </span></p> 
+                            <p><span className='about-list-titles'>Interests: </span></p> 
                             </li>
+                            <ul>
+                                    <li>
+                                        <p>Painting</p> 
+                                    </li>
+                                    <li>
+                                        <p>Research</p> 
+                                    </li>
+                                </ul>
                         </ul>
                     </section> 
-                </div> {/* sections container */}
-
+                </div> 
                 
 
             </div>

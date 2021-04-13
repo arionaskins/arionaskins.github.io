@@ -26,7 +26,7 @@
   button {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    height: 5vh;
+    height: 6.5vh;
     width: 11vw;
     border-radius: 0.75vh;
 }
@@ -47,6 +47,7 @@
   .nav-menu {
     display: flex;
     padding-right: 1.7rem;
+    margin-right: 1%;
   }
 
   .nav-link-div {
@@ -61,6 +62,7 @@
     
   } .nav-link:hover {
     background-color: rgba(255, 213, 136, 0.541);
+    margin: 5px 0;
     
   } .nav-link:active {
     background-color: #FD5523;
@@ -119,6 +121,7 @@
 
   .about-list-titles {
     font-weight: bold;
+    padding-right: .5rem;
   }
 
     /* what I do page styling */
@@ -166,8 +169,13 @@
     margin-top: 1rem;
     box-shadow: 6px 5px 5px rgb(0, 43, 2);
     background-color: rgb(255, 251, 230);
+    color: #;
     border-radius: 1.3rem;
     margin: 1rem 0;
+  }
+
+  .project-description {
+    color: rgb(92, 121, 66);
   }
 
   #project-card-bttm {
@@ -270,10 +278,13 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 1rem;
+    padding: 1% 0;
 
   }
+  #footer-link-line {
+    margin-bottom: 1%;
 
+  }
   .footer-icon {
     width: 40px;
     height: auto;
@@ -293,7 +304,12 @@
     right: 55px;
     bottom: 80px;
   }
+
+  footer > p {
+    margin-bottom: 0;
+  }
 }
+
 /* handle styling for small device viewports */
 
 @media only screen  and (max-width : 450px) {

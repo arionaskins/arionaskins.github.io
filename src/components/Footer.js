@@ -4,7 +4,7 @@ import icons from '../icons.js'
 const Footer = () => {
     return (
         <footer>
-            <div>
+            <div id='footer-link-line'>
                 <a href='https://www.linkedin.com/in/arionaskins2021/' className='footer-link' id='linkedin'>
                     <img alt='linkedin icon' className='footer-icon' 
                          id='linkedin-icon' src={icons.linkedin}></img>
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <p>Designed in react (self-taught) by me :)</p> 
             <i><p>Icons retrieved from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a></p></i>
-            <p>2021</p>
+            <p>© A. Askins 2021</p>
         </footer>
     )
 }

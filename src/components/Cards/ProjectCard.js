@@ -11,7 +11,7 @@ export default class ProjectCard extends Component {
                 </div>
                 <div id='project-card-bttm'>
                         <h4>{this.props.name}</h4>
-                        <p>{this.props.description}</p>
+                        <p className='project-description'>{this.props.description}</p>
                         <a href={this.props.url} className='view-code-link'>view code &#62;</a>
                 </div>
             </>
