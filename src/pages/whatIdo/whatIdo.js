@@ -51,11 +51,11 @@ export default class Strengths extends React.Component {
                         altTxt='team working on task icon'
                         cardTitle='Collaborate'>
                         <span className='card-text'>
-                                I have a vast experience in software and libraries for computational analysis
-                                and statistical modelling of large datasets. I am passionate in quality 
-                                data preprocessing and cleaning to ensure maximum accuracy in results. 
-                                Some python libraries I have utilized are scikit-learn and pandas, as well as Tableau
-                                to produce data-driven storytelling visualizations and dashboards.
+                                In addition to personal projects, I have collaborated with colleagues in
+                                various technical projects. With experience in Project Management, task delegation 
+                                and strategic decision masking, as well as formal contract documentation are my
+                                practices to contribute in a result-oriented team. Platforms I have utilized for 
+                                group communication are GroupMe, Zoom, Trello.
                             </span>
                     </StrengthCard>
 
