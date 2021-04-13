@@ -16,9 +16,9 @@ const Footer = () => {
                 </a>
                
             </div>
-            <p>Designed in react (self-taught) by me :)</p> 
+            <p>Developed in react by me :)</p> 
             <i><p>Icons retrieved from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a></p></i>
-            <p>© A. Askins 2021</p>
+            <p>A. Askins 2021 ©</p>
         </footer>
     )
 }
