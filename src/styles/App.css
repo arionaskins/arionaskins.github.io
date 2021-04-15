@@ -80,6 +80,7 @@
       padding-left: calc(3vw + 3 * ((100vw - 600px) / 1000));
       text-align: center;
       background-image: url('../r.jpg');
+      background-repeat: no-repeat;
   }
 
   .buttons-container {
@@ -90,10 +91,25 @@
     text-shadow: 2px 2px 5px rgb(164,191,118);
   }
 
+  #main-btn {
+    background-color: #FD5523;
+    border-color: #FD5523;
+    color: white;
+  }
+
+  #resume-btn {
+    background-color: rgb(255, 251, 230);
+    color: rgb(0, 43, 2);
+    border-color: rgb(0, 43, 2);
+  } #resume-btn:hover {
+    background-color: #A4BF76;
+    color: rgb(0, 43, 2);
+    border-color: rgb(0, 43, 2);
+  }
+
   /* about page styling */
 
   .about-container {
-    height: 70vh;
   }
   
   .about-sections-container {
@@ -133,8 +149,13 @@
       align-items: center;
     }
     .strength-card {
-      color: rgb(3, 29, 0);
+      color: rgb(0, 43, 2);
       padding: 2rem;
+    }
+
+    .strength-title {
+      font-size: 18px;
+      font-weight: 400;
     }
 
     .strength-icon {
@@ -144,6 +165,12 @@
 
     .odd {
       background-color: rgb(185, 228, 201, .3);
+    }
+
+    .card-text {
+      line-height: 1.5;
+      font-size: 15px;
+      font-weight: 300;
     }
 
     /* projects page styling */
@@ -167,11 +194,13 @@
     max-width: 16.25rem;
     padding: 0px 1rem;
     margin-top: 1rem;
-    box-shadow: 6px 5px 5px rgb(0, 43, 2);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     background-color: rgb(255, 251, 230);
     color: rgb(0, 43, 2);
     border-radius: 1.3rem;
     margin: 1rem 0;
+  } .project-card:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   }
 
   .project-description {
@@ -192,10 +221,20 @@
     font-family: 'Lato', 'sans-serif';
     text-transform: uppercase;
     border-radius: 3px;
+    letter-spacing: 0.15em;
   }
 
   .view-code-link {
     color: #FD5523;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .15rem;
+    text-decoration: none;
+    
+  } .view-code-link:hover {
+    text-decoration: underline;
+    
+  } .view-code-link:active {
+    color: rgb(0, 43, 2);
   }
 
       /* contact page styling */
@@ -303,6 +342,10 @@
     position: fixed;
     right: 55px;
     bottom: 80px;
+  } #arrow:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+                 rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px;
   }
 
   footer > p {

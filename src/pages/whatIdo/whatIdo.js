@@ -51,10 +51,10 @@ export default class Strengths extends React.Component {
                         altTxt='team working on task icon'
                         cardTitle='Collaborate'>
                         <span className='card-text'>
-                                In addition to personal projects, I have collaborated with colleagues in
-                                various technical projects. With experience in Project Management, task delegation 
-                                and strategic decision masking, as well as formal contract documentation are my
-                                practices to contribute in a result-oriented team. Platforms I have utilized for 
+                                In addition to personal projects, I have collaborated with colleagues within teams 
+                                in completeing various technical projects. With experience in Project Management,
+                                task delegation and strategic decision masking, as well as formal contract documentation
+                                are my practices to contribute in a result-oriented team. Platforms I have utilized for 
                                 group communication are GroupMe, Zoom, Trello.
                             </span>
                     </StrengthCard>
@@ -66,11 +66,11 @@ export default class Strengths extends React.Component {
                         altTxt='algorithm icon with desktop'
                         cardTitle='Develop'>
                             <span className='card-text'>
-                                I have a vast experience in software and libraries for computational analysis
-                                and statistical modelling of large datasets. I am passionate in quality 
-                                data preprocessing and cleaning to ensure maximum accuracy in results. 
-                                Some python libraries I have utilized are scikit-learn and pandas, as well as Tableau
-                                to produce data-driven storytelling visualizations and dashboards.
+                               As a natural problem solver, I am inclined to approaching uncertainty and
+                               formulating solutions. This easily translates over when utilizing data, in which
+                               I have experience developing primarily data driven front-end responsive web applications
+                               with some back-end knowledge. In addition to web dev foundations, I have developed using 
+                               common frameworks such as React.js, node.js, and Bootstrap.
                             </span>
                     </StrengthCard>
                     </div>
