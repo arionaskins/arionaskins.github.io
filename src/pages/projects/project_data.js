@@ -1,32 +1,32 @@
 const project_data = [
     {
-        project_name: "United States Happiness Index Analysis",
-        description: "An analysis done to investigate how happy people in the US are and relevant/external factors.",
+        project_name: "Personal Portfolio",
+        description: "A responsive front-end app built in React showcasing my background, talents, and experience—deployed using Github Pages!",
+        tag: 'Web Dev',
+        link: 'https://github.com/arionaskins/arionaskins.github.io'
+    },
+    {
+        project_name: "U.S. Happiness Index Analysis",
+        description: "An analysis conducted in manipulating 1,200 entries in MS Excel through visualizations highlighting US  happiness levels and significant impactors.",
         tag: 'Data Analysis',
         link: ''
     },
     {
         project_name: "Prince George’s County Budget Analyzer ",
-        description: "An Heroku-deployed app that allows users to view and analyze PG County government budget expenditures.",
+        description: "A collaborative web app that allows users to view and analyze PG County government budget expenditures, deployed using Heroku.",
         tag: 'Web Dev',
         link: 'http://team-central-services.herokuapp.com/'
     },
     {
         project_name: "Sun Sign Calculator",
-        description: "A simple app to calculate the astrology sign the sun was transiting the day you were born!",
+        description: "A heroku-deployed web app to calculate the astrology sign the sun was transiting the day you were born! ",
         tag: 'Web Dev',
         link: 'http://www.sun-sign-calculator.herokuapp.com'
     },
     {
         project_name: "United States Congress Relational Database",
-        description: "A database created in MySQL populated with around 550 records of data on US congressional sessions and officials. ",
+        description: "A Relational Database populated with around 550 records of data on US congressional sessions and officials. ",
         tag: 'Database/SQL',
-        link: ''
-    },
-    {
-        project_name: "Canine Heart Disease Decision Analysis",
-        description: "Collaborated in a team of 5 colleagues in analyzing US Department of Health reported dog health data and devising a decision strategy",
-        tag: 'Data Analysis',
         link: ''
     },
     {

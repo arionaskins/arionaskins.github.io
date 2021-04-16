@@ -17,7 +17,9 @@ function App() {
 
       {/* Pages */}
       <Main />
+      <br />
       <About />
+      <br />
       <Strengths />
       <br />
       <Projects />
@@ -26,6 +28,7 @@ function App() {
       <br /> 
       <Footer />
 
+      {/* fixed scroll to top arrow */}
       <a href='#main' className='arrow'><img alt='arrow up' id='arrow' src={icons.arrow}></img></a>
     </div>
   );

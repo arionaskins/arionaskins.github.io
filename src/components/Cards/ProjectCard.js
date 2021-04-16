@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import icons from  '../../icons.js'
 
 export default class ProjectCard extends Component {
 
@@ -6,8 +7,8 @@ export default class ProjectCard extends Component {
         return (
             <>
                 <div id='project-card-top'> 
-                <p className='heart' >&#9825;</p>
-                <p className='tag'>{this.props.tag}</p>
+                    <p className='tag'><span className='tag-icon'><img className='tag-icon' src={icons.tag}alt='tag icon' >
+                                      </img></span> {this.props.tag}</p>
                 </div>
                 <div id='project-card-bttm'>
                         <h4>{this.props.name}</h4>

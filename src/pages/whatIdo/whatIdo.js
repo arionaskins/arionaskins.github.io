@@ -37,8 +37,8 @@ export default class Strengths extends React.Component {
                         cardTitle='Design'>
                             <span className='card-text'>
                                 I am a creative at heart and I utilize this to brainstorm ideas for web and product design.
-                                I have a strong deisgn pricniple background incorporating aspects such as color scheme 
-                                and web accessability. Additionally, I have conducted UI/UX Research in innovating 
+                                I have a strong design principle background in designing prototypes and wireframes for 
+                                target audiences. Additionally, I have conducted UI/UX Research in innovating 
                                 web applications as well as product design features. Figma, Canva, and Adobe Photoshop
                                 are a few software I have experience using. 
                             </span>                    
@@ -52,8 +52,8 @@ export default class Strengths extends React.Component {
                         cardTitle='Collaborate'>
                         <span className='card-text'>
                                 In addition to personal projects, I have collaborated with colleagues within teams 
-                                in completeing various technical projects. With experience in Project Management,
-                                task delegation and strategic decision masking, as well as formal contract documentation
+                                in completing various technical projects. With experience in Project Management,
+                                task delegation and strategic decision making, as well as formal contract documentation
                                 are my practices to contribute in a result-oriented team. Platforms I have utilized for 
                                 group communication are GroupMe, Zoom, Trello.
                             </span>
