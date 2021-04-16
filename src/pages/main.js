@@ -9,12 +9,14 @@ export default class Main extends React.Component {
     render() { 
         return ( 
             <div id ='main' className='main-container'>
-                <h1 id='title'>Arion Askins</h1>
-                <TypistHeader />            
-        
-                <div className='buttons-container'>
-                    <button id='main-btn' className='btn' type="button" onClick={this}>View More!!</button> 
-                    <button id='resume-btn' className='btn' type="button" onClick={this}>get resume</button> 
+                <div className='landing' id='landing'>
+                    <h1 id='title'>Arion Askins</h1>
+                    <TypistHeader />            
+                
+                    <div className='buttons-container'>
+                        <button id='main-btn' className='btn' type="button" onClick={this}>View More!!</button> 
+                        <button id='resume-btn' className='btn' type="button" onClick={this}>get resume</button> 
+                    </div>
                 </div>
             </div>
        );
