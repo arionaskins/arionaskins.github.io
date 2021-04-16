@@ -13,7 +13,7 @@ const project_data = [
     },
     {
         project_name: "Prince George’s County Budget Analyzer ",
-        description: "A collaborative web app that allows users to view and analyze PG County government budget expenditures, deployed using Heroku.",
+        description: "A collaborative web app allowing users to view and analyze PG County government budget expenditures, deployed using Heroku.",
         tag: 'Web Dev',
         link: 'http://team-central-services.herokuapp.com/'
     },
