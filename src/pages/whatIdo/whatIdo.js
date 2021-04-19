@@ -51,11 +51,11 @@ export default class Strengths extends React.Component {
                         altTxt='team working on task icon'
                         cardTitle='Collaborate'>
                         <span className='card-text'>
-                                In addition to personal projects, I have collaborated with colleagues within teams 
-                                in completing various technical projects. With experience in Project Management,
-                                task delegation and strategic decision making, as well as formal contract documentation
+                                In addition to personal projects, I have collaborated among colleagues within teams 
+                                in completing various technical projects. With experience in Project Management—task
+                                delegation and strategic decision making, as well as formal contract documentation
                                 are my practices to contribute in a result-oriented team. Platforms I have utilized for 
-                                group communication are GroupMe, Zoom, Trello.
+                                group engagement are Miro, Zoom, and GitHub.
                             </span>
                     </StrengthCard>
 
@@ -69,8 +69,8 @@ export default class Strengths extends React.Component {
                                As a natural problem solver, I am inclined to approaching uncertainty and
                                formulating solutions. This easily translates over when utilizing data, in which
                                I have experience developing primarily data driven front-end responsive web applications
-                               with some back-end knowledge. In addition to web dev foundations, I have developed using 
-                               common frameworks such as React.js, node.js, and Bootstrap.
+                               with some back-end knowledge. Ultimately, I have 
+                               built apps with frameworks such as React.js, node.js, and Bootstrap.
                             </span>
                     </StrengthCard>
                     </div>

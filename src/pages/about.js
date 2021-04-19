@@ -22,6 +22,9 @@ export default class About extends React.Component {
                             <span> <a href=' '> PDF</a> </span>|
                             <span> <a href='https://go.umd.edu/arionaskins2021'>Drive</a></span>
                         </p>
+                        <div id='mouse-icon-div'>
+                    <img src='./img.png' id='mouse-icon' ></img>
+                </div>
                     </section>
 
                     <section className='about-section' id='about-right' >
