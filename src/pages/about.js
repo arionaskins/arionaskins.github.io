@@ -12,19 +12,34 @@ export default class About extends React.Component {
                     <br />
                 <div className='about-sections-container'>
                     <section className='about-section' id='about-left' >
-                        <p>I am a graduating senior at the University of Maryland with a 
-                        B.S. in Information Science and a minor in Human Development & Quantitative Methodology. </p>
+                        <p>Hi, I'm Arion!</p>
+
+                        <p>I am a graduating senior at the Univeristy of Maryland majoring in Information Science with a minor 
+                            in Human Development & Quantitative Methodology. Currently I am working Research Intern
+                            at Project RISE Research Insititute where I am enhancing my research abilities in conducting research,
+                            as well as developing a systematic review on previous research!</p>
                     
-                        <p>I enjoy using technology in working with data to investigate and solve societal information problems. </p>
+                        <p>I became intrigued by computers and technology from a young age and I always found myself attempting to
+                            solving a problem or issue using technology. As the logical thinker that I am, I am able to use this
+                            to make and draw conclusions from information derived from data.</p>
+
+                        <p>When I am not coding on Visual Studio Code or Jupyter Notebook, you can find me painting canvases
+                         or tie-dying old fabric :) I also enjoy relaxing by the beach and a new hobby I've discovered is hiking!</p>
+
                         <p className='about-resume-link'>
                             Resume: 
                             <span> <a href=' '> Word</a> </span>| 
                             <span> <a href=' '> PDF</a> </span>|
                             <span> <a href='https://go.umd.edu/arionaskins2021'>Drive</a></span>
                         </p>
+<<<<<<< Updated upstream
                         <div id='mouse-icon-div'>
                     <img src='./img.png' id='mouse-icon' ></img>
                 </div>
+=======
+
+                        <button className='btn button'  download="./ArionAskins_Resume.docx">resumeeeeee</button>
+>>>>>>> Stashed changes
                     </section>
 
                     <section className='about-section' id='about-right' >
@@ -45,7 +60,7 @@ export default class About extends React.Component {
                             
                                 <ul>
                                     <li>
-                                        <p><span className='about-list-titles'>Major: </span>Information Science</p> 
+                                        <p><span className='about-list-titles'>Major: </span>Information Science, Data Science Spec.</p> 
                                     </li>
                                     <li>
                                         <p><span
@@ -62,7 +77,7 @@ export default class About extends React.Component {
                                         <p>Painting</p> 
                                     </li>
                                     <li>
-                                        <p>Research</p> 
+                                        <p>Photography</p> 
                                     </li>
                                 </ul>
                         </ul>
@@ -75,5 +90,8 @@ export default class About extends React.Component {
     }
 }
  
+
+
+
 
 

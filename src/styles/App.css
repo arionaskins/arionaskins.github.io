@@ -63,7 +63,7 @@
     letter-spacing: .15rem;
     color: rgb(0, 43, 2);
     text-decoration: none;
-    font-size: larger;
+    font-size: large;
     padding: 1.5rem 1rem 1.7rem;
     
   } .nav-link:hover {
@@ -90,6 +90,7 @@
       text-align: center;
       background-image: url('../r.jpg');
       background-repeat: no-repeat;
+      background-size: cover;
   }
 
   #main {
@@ -136,12 +137,19 @@
     color: rgb(0, 43, 2);
     border-color: rgb(0, 43, 2);
   }
+<<<<<<< Updated upstream
 
   #download {
     height: 35%;
     padding-top: 0px;
   }
 
+=======
+  #download {
+    margin-right: 2%;
+  }
+  
+>>>>>>> Stashed changes
   /* about page styling */
 
   .about-container {
@@ -162,6 +170,7 @@
   #about-right {  
     background-color: rgba(255, 213, 136, 0.541);
     color: rgb(0, 43, 2);
+    min-width: 30%;
   }
 
 
