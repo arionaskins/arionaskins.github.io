@@ -1,7 +1,9 @@
 import React from 'react'
   
+  export default class ContactForm extends React.Component {
+    
 
-const ContactForm = () => { 
+      render() {
         return (
             <form className='myForm' onSubmit={event => this.props.handleSubmit(event)} >
               <fieldset className='dob-input-container' style={{border: "5px"}}>
@@ -13,7 +15,8 @@ const ContactForm = () => {
                               className='name-input'
                               placeholder='ex: Arion Askins'
                               minLength={3}
-                              onChange={event => this.props.handleYearChange(event)}
+                              value={this.props.formData.name}
+                              onChange={e => this.props.handleNameChange(e)}
                               required />
                     </div>
 
@@ -22,7 +25,8 @@ const ContactForm = () => {
                       <input type='text' 
                               placeholder='ex: askinsarion@gmail.com'
                               minLength={3}
-                              onChange={event => this.props.handleYearChange(event)}
+                              value={this.props.formData.email}
+                              onChange={e => this.props.handleEmailChange(e)}
                               className='email-input'
                               id='email-input' 
                               required />
@@ -33,7 +37,8 @@ const ContactForm = () => {
                       <input type='tel' 
                               placeholder='XXX-XXX-XXXX'
                               minLength={10}
-                              onChange={event => this.props.handleYearChange(event)}
+                              value={this.props.formData.phone}
+                              onChange={e => this.props.handlePhoneChange(e)}
                               className='phone-input'
                               id='phone-input' />
                     </div>
@@ -42,7 +47,11 @@ const ContactForm = () => {
                       <label htmlFor="textarea">Message</label>
                       <textarea className='form-item'
                                 rows={5}
-                                cols={5} />
+                                cols={5} 
+                                placeholder="Cool portfolio! When are you available to talk more?"
+                                onChange={e => this.props.handleMessageChange(e)}
+                                value={this.props.formData.message}
+                                />
                     </div>
 
               </fieldset>
@@ -54,4 +63,4 @@ const ContactForm = () => {
         )
       }
 
-export default ContactForm;
+    }

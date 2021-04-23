@@ -137,19 +137,52 @@
     color: rgb(0, 43, 2);
     border-color: rgb(0, 43, 2);
   }
-<<<<<<< Updated upstream
 
   #download {
     height: 35%;
     padding-top: 0px;
-  }
-
-=======
-  #download {
     margin-right: 2%;
   }
   
->>>>>>> Stashed changes
+  .mouse-icon {
+    position: relative;
+    bottom: 10;
+    margin: auto;
+    margin-top: 11vh;
+    width :34px;
+    height: 55px;
+  }
+  
+  .mouseY {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #A4BF76;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .mouse-scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #A4BF76;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  /* #mouse-icon {
+    height: 230px;
+    width: 195px;
+  } */
+  
   /* about page styling */
 
   .about-container {
@@ -178,6 +211,17 @@
   .about-resume-link {
     padding-top: 1.25rem;
     margin-left: 3rem;
+    text-transform: uppercase;
+  }
+
+  #resume {
+    text-transform: uppercase;
+    background-color: rgb(185,228,201);
+    font-size: large;
+
+  } #resume:hover {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(185,228,201,1) 100%);
+    font-size: larger;
   }
 
   .about-list-titles {
@@ -201,7 +245,7 @@
 
     .strength-title {
       font-size: 18px;
-      font-weight: 400;
+      font-weight: 500;
     }
 
     .strength-icon {
@@ -300,6 +344,10 @@
         color: #FD5523;
       }
 
+      #contact-icon {
+        width: 2vw;
+      }
+
       form {
         background-color: rgb(255, 251, 230);
         margin: 1% auto;
@@ -347,17 +395,22 @@
       padding: .5rem 0 .5rem .5rem;
       border-radius: .2rem;
       border-style: solid;
-      
+      color: rgb(0, 43, 2);
+      font-family: 'Fira Sans', sans-serif;
 
     } input:hover, textarea:hover {
       border-color: #A4BF76;
   
-    } input:active, input:focus, textarea:active, textarea:focus {
+    }   input:active, input:focus, 
+          textarea:active, textarea:focus, textarea:focus-within, textarea:target  {
         border-color: #FD5523;
+        outline: #FD5523;
         font-family: 'Fira Sans', sans-serif;
+        
 
-    } input::placeholder, textarea::placeholder {
+    }   input::placeholder, textarea::placeholder {
         font-family: 'Fira Sans', sans-serif;
+        color:  #a4bf76cb
 
     }
     .form-item {

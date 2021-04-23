@@ -18,12 +18,13 @@ export default class Main extends React.Component {
                         <button id='resume-btn' className='btn' type="button" onClick={this}><span id='download'><img src={icons.download} id='download' alt=''></img>
                                                                                                                     </span>  resume</button> 
                     </div>
-                    <div id='mouse-icon-div'>
-                    <img src='./img.png' id='mouse-icon' ></img>
-                </div>
                 </div>
 
-                
+                <div class="mouse-icon">
+                        <div class="mouseY">
+                            <div class="mouse-scroller"></div>
+                        </div>
+                    </div>
 
             </div>
        );
