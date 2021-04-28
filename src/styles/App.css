@@ -8,7 +8,6 @@
 
 }
 
-
 /* handle styling for larger/desktop viewports */
 
 @media only screen  and (min-width : 625px) {
@@ -16,17 +15,17 @@
   
   h2 {
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
     color: rgb(0, 43, 2);
   }
 
-  button {
+  .btn {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     height: 6.5vh;
     width: 11vw;
     border-radius: 0.75vh;
-    margin-left: 1vw;
     margin-right: 1vw;
 }
 
@@ -63,10 +62,12 @@
     letter-spacing: .15rem;
     color: rgb(0, 43, 2);
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
     padding: 1.5rem 1rem 1.7rem;
-    
-  } .nav-link:hover {
+    transition: transform .5s ease;
+  } 
+
+  .nav-link:hover {
     background-color: rgba(255, 213, 136, 0.541);
     margin: 5px 0;
     
@@ -91,6 +92,7 @@
       background-image: url('../r.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+      margin-top: -31px;
   }
 
   #main {
@@ -104,6 +106,7 @@
   #typist {
     font-weight: bolder;
     font-size: calc(2vw + 6 * ((100vw - 600px) / 1000));
+    
   }
 
   .Cursor--blinking {
@@ -124,14 +127,20 @@
     border-color: #FD5523;
     color: white;
     width: 12vw;
+    border: none;
+    margin-left: 1vw;
     
-  }
+  }   #main-btn:hover {
+          background-color: #b4340d;
+      }
 
   #resume-btn {
     background-color: rgb(255, 251, 230);
     color: rgb(0, 43, 2);
     border-color: rgb(0, 43, 2);
     width: 9vw;
+    margin-right: 4vw;
+    font-size: 14px;
   } #resume-btn:hover {
     background-color: #A4BF76;
     color: rgb(0, 43, 2);
@@ -141,9 +150,19 @@
   #download {
     height: 35%;
     padding-top: 0px;
-    margin-right: 2%;
+    margin-right: 4%;
   }
-  
+
+  .main-icon {
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+    margin: 0 1.25vw;
+
+  }   .social:hover {
+          transform: translateY(-.125rem);
+      }
+    
   .mouse-icon {
     position: relative;
     bottom: 10;
@@ -154,19 +173,22 @@
   }
   
   .mouseY {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #A4BF76;
+    width: 5px;
+    padding: 10px 14px;
+    height: 40px;
+    border: 2px solid rgb(0, 43, 2);
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
   }
+     /*  view more to #sbout z(?), mouse icon color & scroll to top  */
+
+
   .mouse-scroller {
     width: 3px;
     height: 10px;
     border-radius: 25%;
-    background-color: #A4BF76;
+    background-color: rgb(0, 43, 2);
     animation-name: scroll;
     animation-duration: 2.2s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
@@ -184,6 +206,9 @@
   } */
   
   /* about page styling */
+  #about {
+     margin-top: 2rem;
+  }
 
   .about-container {
     border: set;
@@ -208,25 +233,32 @@
 
 
 
-  .about-resume-link {
+  .about-resume-btn {
     padding-top: 1.25rem;
-    margin-left: 3rem;
     text-transform: uppercase;
+    margin-top: 3%;
   }
 
   #resume {
     text-transform: uppercase;
     background-color: rgb(185,228,201);
     font-size: large;
+    margin-top: 2%;
 
-  } #resume:hover {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(185,228,201,1) 100%);
-    font-size: larger;
-  }
+  }   #resume:hover {
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(185,228,201,1) 100%);
+        font-size: larger;
+
+      }   #resume:active, #resume:visited {
+            border-style: solid;
+            border-width: .01em;
+            border-color: rgb(0, 43, 2);
+          }
 
   .about-list-titles {
     font-weight: bold;
     padding-right: .5rem;
+    font-family: 'Lato';
   }
 
     /* what I do page styling */
@@ -251,7 +283,11 @@
     .strength-icon {
       height: 4.5rem;
       width: auto;
-    }
+      transition: transform .5s ease;
+
+    } .strength-icon:hover {
+          transform: scale(1.15);
+      }
 
     .odd {
       background-color: rgb(185, 228, 201, .3);
@@ -267,7 +303,7 @@
 
   #projects {
     padding-top: 3rem;
-    background-image: url('../pages/projects/light-bckgrnd.jpg');
+    background-image: url('../pages/projects/light-bckgrnd.png');
   }
 
   section {
@@ -281,7 +317,7 @@
     padding: 1rem 0;
   }
   .project-card {
-    max-width: 16.25rem;
+    width: 16.25rem;
     padding: .25rem 1rem;
     margin-top: 1rem;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -292,9 +328,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-style: solid;
+    border-width: .1rem;
+    border-color: rgb(0, 43, 2);
+    box-shadow: rgba(0, 43, 2, 0.05) 0px 1px 0px, rgba(0, 43, 2, 0.1) 0px 0px 8px;
 
   } .project-card:hover {
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        box-shadow: #A4BF76 0px 4px 16px, #A4BF76 0px 8px 32px;
   }
 
   .project-description {
@@ -340,8 +380,16 @@
         text-align: center;
       }
 
+      #contact-hdr {
+        margin: 2rem 0px 1rem 0px;
+      }
+
       #contact-hdr, #contact-subhdr {
         color: #FD5523;
+      }
+
+      #contact-subhdr {
+        padding-bottom: 1rem;
       }
 
       #contact-icon {
@@ -365,7 +413,6 @@
       #submit {
         margin-top: 1vh;
         margin-bottom: 1vh;
-        height: 5.5vh;
         color: #FD5523;
         -webkit-border-radius: 10px;
         border-radius: 10px;
@@ -375,6 +422,12 @@
         transition: -webkit-box-shadow .1s ease-in-out;
         background-color: transparent;
         border-color: #FD5523;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        border-radius: 0.75rem;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        padding: 3% 20% !important;
 
       } #submit:hover {
           border-color: #FD5523;
@@ -434,20 +487,18 @@
     padding: 1% 0;
 
   }
+  /* navbar (?) , chekc console , scroll button , view morew=>about &&& css shadow hover */
+
   #footer-link-line {
     margin-bottom: 1%;
 
   }
   .footer-icon {
-    width: 40px;
+    width: 30px;
     height: auto;
     margin-top: 5px;
+    margin: 0 2vw;
   }
-
-  #github {
-    margin-left: 42px;
-  }
-
   #arrow {
     background-color: #FD5523;
     width: 3.2rem;
@@ -460,6 +511,7 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
                  rgba(17, 17, 26, 0.1) 0px 8px 24px,
                   rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: #DB4C22;
   }
 
   footer > p {

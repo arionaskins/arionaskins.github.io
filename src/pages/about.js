@@ -1,4 +1,5 @@
 import React from 'react';
+import icons from '../icons'
 
 export default class About extends React.Component {
     constructor(props) {
@@ -26,10 +27,11 @@ export default class About extends React.Component {
                         <p>When I am not coding, you can find me painting canvases
                          or tie-dying old fabric :) I also enjoy relaxing by the beach and a new hobby I've discovered is hiking!</p>
 
-                        <p className='about-resume-link'>
+                        <div className='about-resume-btm'>
                             <span><a href='https://go.umd.edu/arionaskins2021'><button id='resume'
-                                                                                        className='btn button' >résumé</button></a></span>
-                        </p>
+                                                                                        className='btn button'
+                                                                                         ><img src={icons.download} id='download'></img>résumé</button></a></span>
+                        </div>
                     </section>
 
                     <section className='about-section' id='about-right' >

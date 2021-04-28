@@ -57,7 +57,7 @@ import React from 'react'
               </fieldset>
 
             <div>
-             <button className='btn' id='submit' type="submit">SUBMIT</button> 
+             <button id='submit' type="submit">SUBMIT</button> 
             </div>      
         </form>
         )

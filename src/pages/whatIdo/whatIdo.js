@@ -67,7 +67,7 @@ export default class Strengths extends React.Component {
                         cardTitle='Develop'>
                             <span className='card-text'>
                                As a natural problem solver, I am inclined to approaching uncertainty and
-                               formulating solutions. This easily translates over when utilizing data, in which
+                               formulating solutions. This easily translates over when handling data, in which
                                I have experience developing primarily data driven front-end responsive web applications
                                with some back-end knowledge. Ultimately, I have 
                                built apps with frameworks such as React.js, node.js, and Bootstrap.
