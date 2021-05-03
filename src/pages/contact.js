@@ -72,6 +72,7 @@ export default class Contact extends Component {
         console.log(this.state);
         return (
             <div id='contact' className='contact'>
+                <br />
                 <h2 id='contact-hdr'>Leave Me A Message! <span><img id='contact-icon' alt='' src={icons.contact}></img></span></h2>
                 <p id='contact-subhdr'>I like constructive feedback :)</p>
 

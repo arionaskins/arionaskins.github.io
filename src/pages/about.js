@@ -9,6 +9,7 @@ export default class About extends React.Component {
     render() { 
         return ( 
             <div className='about-container' id='about'>
+                <br />
                 <h2>About Me</h2>
                     <br />
                 <div className='about-sections-container'>
@@ -28,7 +29,7 @@ export default class About extends React.Component {
                          or tie-dying old fabric :) I also enjoy relaxing by the beach and a new hobby I've discovered is hiking!</p>
 
                         <div className='about-resume-btm'>
-                            <span><a href='https://go.umd.edu/arionaskins2021'><button id='resume'
+                            <span><a href='https://go.umd.edu/arion_askins_resume'><button id='resume'
                                                                                         className='btn button'
                                                                                          ><img src={icons.download} id='download'></img>résumé</button></a></span>
                         </div>
@@ -76,7 +77,7 @@ export default class About extends React.Component {
                     </section> 
                 </div> 
                 
-
+                <br />
             </div>
          );
     }

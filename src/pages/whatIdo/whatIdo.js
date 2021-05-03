@@ -10,6 +10,7 @@ export default class Strengths extends React.Component {
     render() { 
         return ( 
             <div className='strengths-container' id='whatIdo'>
+                <br />
                 <h2>What I Do</h2>
                 <br />
                 <div className='strength-wrapper'>
@@ -75,6 +76,7 @@ export default class Strengths extends React.Component {
                     </StrengthCard>
                     </div>
                 </div>
+                <br />
             </div>
          );
     }
