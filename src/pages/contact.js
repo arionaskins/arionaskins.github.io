@@ -25,36 +25,29 @@ export default class Contact extends Component {
         this.setState({
             name: event.target.value
         });
-        console.log(this.state.name)
-
       }
     
     handleEmailChange = event => {
         this.setState({
             email: event.target.value
         });
-        console.log(this.state.email)
     }
     
     handlePhoneChange = event => {
         this.setState({
             phone: event.target.value
         });
-        console.log(this.state.phone)
-
     }
 
     handleMessageChange = event => {
         this.setState({
             message: event.target.value
         });
-        console.log(this.state.message)
     }
       
     handleSubmit = event => {
         event.preventDefault();
         const user = this.state.name;
-        console.log(user, 'submitted');
         alert('Hi, '+ user + "! I've received your message and I will reach out to you soon! Stay safe :)" + '\n' + '\n' + '-Arion A');
         
         this.setState({
@@ -63,13 +56,11 @@ export default class Contact extends Component {
             phone: "",
             message: ""
             });
-        console.log(this.state, 'post submit')
     }
 
 
     
     render() {
-        console.log(this.state);
         return (
             <div id='contact' className='contact'>
                 <br />

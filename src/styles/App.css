@@ -175,7 +175,6 @@
     
   .mouse-icon {
     position: relative;
-    bottom: 10;
     margin: auto;
     margin-top: 5vh;
     width :34px;
@@ -218,10 +217,6 @@
   /* about page styling */
   #about {
      margin-top: 2rem;
-  }
-
-  .about-container {
-    border: set;
   }
   
   .about-sections-container {
@@ -498,7 +493,6 @@
     padding: 1% 0;
 
   }
-  /* navbar (?) , chekc console , scroll button , view morew=>about &&& css shadow hover */
 
   #footer-link-line {
     margin-bottom: 1%;

@@ -16,7 +16,10 @@ export default class Main extends React.Component {
                     <h1 id='title'>Arion Askins</h1>
                     <TypistHeader />        
                     <div className='buttons-container'>
-                        <button id='main-btn' className='btn' type="button" onClick={(e) => this.scroll(e)}>View My Work</button> 
+                    <span><a href='#projects'>
+                            <button id='main-btn' className='btn button'><img src={icons.download} 
+                                                                                            id='download' alt='download'></img>View My Work</button></a></span>
+                        
                         <button id='resume-btn' className='btn' type="button" onClick={this}><span id='download'><img src={icons.download} id='download' alt=''></img>
                                                                                                                     </span>  resume</button> 
                     </div>

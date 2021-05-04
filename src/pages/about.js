@@ -4,7 +4,6 @@ import icons from '../icons'
 export default class About extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {  }
     }
     render() { 
         return ( 
@@ -31,7 +30,8 @@ export default class About extends React.Component {
                         <div className='about-resume-btm'>
                             <span><a href='https://go.umd.edu/arion_askins_resume'><button id='resume'
                                                                                         className='btn button'
-                                                                                         ><img src={icons.download} id='download'></img>résumé</button></a></span>
+                                                                                         ><img src={icons.download} 
+                                                                                            id='download' alt='download'></img>résumé</button></a></span>
                         </div>
                     </section>
 
