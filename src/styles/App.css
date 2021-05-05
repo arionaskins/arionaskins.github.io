@@ -8,6 +8,10 @@
 
 }
 
+.keyword {
+  color: #ca3700fa;
+}
+
 /* handle styling for larger/desktop viewports */
 
 @media only screen  and (min-width : 625px) {
@@ -517,12 +521,12 @@
   footer > p {
     margin-bottom: 0;
   }
-  #flaticon {
+  #flaticon, .keyword {
     text-decoration: none;
-    letter-spacing: 1px;
   }
 
-  #flaticon:visited, #flaticon:hover, #flaticon:active {
+  #flaticon:visited, #flaticon:hover, #flaticon:active,
+  .keyword:visited, .keyword:hover, .keyword:active {
     color: #FD5523;
     text-decoration: underline;
   }

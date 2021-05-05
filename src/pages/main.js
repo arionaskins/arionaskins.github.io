@@ -17,8 +17,8 @@ export default class Main extends React.Component {
                     <TypistHeader />        
                     <div className='buttons-container'>
                     <span><a href='#projects'>
-                            <button id='main-btn' className='btn button'><img src={icons.download} 
-                                                                                            id='download' alt='download'></img>View My Work</button></a></span>
+                            <button id='main-btn' className='btn button'>View My Work</button>
+                        </a></span>
                         
                         <button id='resume-btn' className='btn' type="button" onClick={this}><span id='download'><img src={icons.download} id='download' alt=''></img>
                                                                                                                     </span>  resume</button> 

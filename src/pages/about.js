@@ -2,9 +2,7 @@ import React from 'react';
 import icons from '../icons'
 
 export default class About extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() { 
         return ( 
             <div className='about-container' id='about'>
@@ -17,8 +15,9 @@ export default class About extends React.Component {
 
                         <p>I am a graduating senior at the University of Maryland majoring in Information Science with a minor 
                             in Human Development & Quantitative Methodology. Currently I am working Research Intern
-                            at Project RISE Research Institute where I am enhancing my research abilities in conducting research,
-                            as well as developing a systematic review on previous research!</p>
+                            at Project RISE Research Institute where I am enhancing my knowledge in conducting research,
+                            as well as developing a Qualitative Systematic Review on the implications of technology integration
+                            within high school math and history courses!</p>
                     
                         <p>I became intrigued by computers and technology from a young age and I always found myself attempting to
                             solving a problem or issue using technology. As the logical thinker that I am, I am able to use this

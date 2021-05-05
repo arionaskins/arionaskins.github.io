@@ -22,11 +22,17 @@ export default class Strengths extends React.Component {
                         altTxt='desktop with graph and calculations'
                         cardTitle='Analyze'>
                             <span className='card-text'>
-                                I have a vast experience in software and libraries for computational analysis
-                                and statistical modelling of large datasets. I am passionate in quality 
-                                data preprocessing and cleaning to ensure maximum accuracy in results. 
-                                Some python libraries I have utilized are scikit-learn and pandas, as well as Tableau
-                                to produce data-driven storytelling visualizations and dashboards.
+                                I have a vast experience in software and libraries for computational analysis 
+                                and <a className='keyword' 
+                                        href='https://www.omnisci.com/technical-glossary/statistical-modeling'>statistical modelling</a> of
+                                 large datasets. I am passionate in quality <a className='keyword'
+                                                                                 href='https://towardsdatascience.com/data-preprocessing-concepts-fa946d11c825'
+                                                                                >data preprocessing</a> and cleaning
+                                to ensure maximum accuracy in results. Some python libraries I have utilized
+                                are scikit-learn and pandas, as well as Tableau to produce <a className='keyword'
+                                                                                             href='https://mitsloan.mit.edu/ideas-made-to-matter/next-chapter-analytics-data-storytelling'
+                                                                                            > data-driven storytelling</a> visualizations
+                                and dashboards.
                             </span>
                     </StrengthCard>
 
@@ -37,11 +43,15 @@ export default class Strengths extends React.Component {
                         altTxt='tools for creative design (ruler, etc)'
                         cardTitle='Design'>
                             <span className='card-text'>
-                                I am a creative at heart and I utilize this to brainstorm ideas for web and product design.
-                                I have a strong design principle background in designing prototypes and wireframes for 
-                                target audiences. Additionally, I have conducted UI/UX Research in innovating 
-                                web applications as well as product design features. Figma, Canva, and Adobe Photoshop
-                                are a few software I have experience using. 
+                                I am a creative at heart and I utilize this to brainstorm ideas for web and product design. I have a 
+                                strong <a className='keyword' 
+                                            href='https://www.freshconsulting.com/7-uiux-principles-fresh-web-experiences/'
+                                            >design principle</a> background in designing prototypes and wireframes
+                                for target audiences. Additionally, I have 
+                                conducted <a className='keyword' 
+                                            href='https://www.secretstache.com/blog/ui-ux-research-methods/'>UI/UX Research</a> in innovating 
+                                web applications as well as product design features. Figma, Canva, and Photoshop
+                                are a few software in my skill set. 
                             </span>                    
                     </StrengthCard>
 
@@ -54,7 +64,8 @@ export default class Strengths extends React.Component {
                         <span className='card-text'>
                                 In addition to personal projects, I have collaborated among colleagues within teams 
                                 in completing various technical projects. With experience in Project Management—task
-                                delegation and strategic decision making, as well as formal contract documentation
+                                delegation and <a className='keyword' href='https://ecomputernotes.com/mis/decision-making/role-of-information'
+                                                >strategic decision making</a>, as well as formal contract documentation
                                 are my practices to contribute in a result-oriented team. Platforms I have utilized for 
                                 group engagement are Miro, Zoom, and GitHub.
                             </span>
@@ -67,10 +78,15 @@ export default class Strengths extends React.Component {
                         altTxt='algorithm icon with desktop'
                         cardTitle='Develop'>
                             <span className='card-text'>
-                               As a natural problem solver, I am inclined to approaching uncertainty and
+                               As a natural problem solver, I am inclined to logically 
+                               approaching <a className='keyword'
+                                            href='http://www.idexaccelerator.com/blog/2016/12/6/embracing-ambiguity-a-strategy-for-problem-solving'
+                                            >ambiguous issues</a> and
                                formulating solutions. This easily translates over when handling data, in which
-                               I have experience developing primarily data driven front-end responsive web applications
-                               with some back-end knowledge. Ultimately, I have 
+                               I have experience developing primarily data driven front-
+                               end <a className='keyword'
+                                    href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design'
+                                    >responsive web applications</a> with some back-end knowledge. I have 
                                built apps with frameworks such as React.js, node.js, and Bootstrap.
                             </span>
                     </StrengthCard>
