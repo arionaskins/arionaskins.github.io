@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/arionaskins/arionaskins.github.io/">
-    <img src="public/images/logo192.png" alt="Logo" width="80" height="80">
+    <img src="public/favicon.ico" alt="Logo" width="100" height="80">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
@@ -38,8 +38,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[[insert wireframes]](https://)
+<img src="public/prototype.png" alt="Homepage" width="90%" height="60%">
 
 This project represents my personal Portfolio and features some of my github projects
 
