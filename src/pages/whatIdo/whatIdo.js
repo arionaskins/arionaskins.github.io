@@ -90,6 +90,7 @@ export default class Strengths extends React.Component {
                                built apps with frameworks such as React.js, node.js, and Bootstrap.
                             </span>
                     </StrengthCard>
+                    
                     </div>
                 </div>
                 <br />

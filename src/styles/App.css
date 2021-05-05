@@ -114,6 +114,8 @@
   }
 
   .Cursor--blinking {
+    font-size: calc(2vw + 6 * ((100vw - 600px) / 1000));
+    font-weight: 500;
     color: #FD5523;
   }
 
@@ -240,7 +242,9 @@
     min-width: 30%;
   }
 
-
+  .about-section > p {
+    line-height: 1.4;
+  }
 
   .about-resume-btn {
     padding-top: 1.25rem;
