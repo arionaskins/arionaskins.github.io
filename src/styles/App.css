@@ -160,6 +160,10 @@
     margin-right: 4%;
   }
 
+  #resume, #download {
+    flex-wrap: no-wrap;
+  }
+
   .social-container {
     margin-top: 2%;
   }
