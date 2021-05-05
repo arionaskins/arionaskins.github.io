@@ -3,10 +3,7 @@ import StrengthCard from '../../components/Cards/StrengthCard.js';
 import icons from '../../icons.js'
 
 export default class Strengths extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
+
     render() { 
         return ( 
             <div className='strengths-container' id='whatIdo'>
@@ -90,7 +87,7 @@ export default class Strengths extends React.Component {
                                built apps with frameworks such as React.js, node.js, and Bootstrap.
                             </span>
                     </StrengthCard>
-                    
+
                     </div>
                 </div>
                 <br />
