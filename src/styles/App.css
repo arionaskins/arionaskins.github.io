@@ -305,6 +305,7 @@
 
     } .strength-icon:hover {
           transform: scale(1.15);
+          cursor: zoom-in;
       }
 
     .odd {

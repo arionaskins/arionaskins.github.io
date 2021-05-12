@@ -32,9 +32,3 @@ export default class Projects extends React.Component {
 }
 
 
-
-// json must be right to run
-//     all project keys and values
-// pass key values (project data) to Card component as props
-//     use these props when creating card:
-//         name of project, description...
