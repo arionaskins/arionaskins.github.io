@@ -14,7 +14,7 @@
     ·
     <a href="https://arionaskins/arionaskins.github.io/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arionaskins/arionaskins.github.io/issues">Request Feature</a>
+    <a href="https://github.com/arionaskins/arionaskins.github.io/issues">Request a Feature</a>
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/arionaskins/arionaskins.github.io)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://arionaskins.github.io)
