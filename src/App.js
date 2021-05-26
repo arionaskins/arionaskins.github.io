@@ -50,7 +50,7 @@ function App() {
             StopPosition={0}
             ShowAtPosition={111}
             EasingType='easeOutCubic'
-            AnimationDuration={500}
+            AnimationDuration={250}
             ContainerClassName='arrow' />
       
     </div>
