@@ -31,6 +31,7 @@
 * [About the Project](#about-the-project)
   * [Live version](#version)
 * [Built With](#built-with)
+* [Initial Wireframes](#wireframes)
 * [Author](#author)
 * [Contributing](#contribute)
 * [Show Your Support](#show-your-support)
@@ -56,6 +57,27 @@ This project was built using these technologies.
 
 You can see it [here](arionaskins.github.io/)!
 
+<!-- WIREFRAMES  -->
+## <a id='wireframes'>Initial Wireframes</a>
+
+### React Component Wireframes
+
+  ##### Landing Page
+  <img src='./public/wireframe_1.png' width=65% >
+
+  ##### About Page
+  <img src='./public/wireframe_5.png' width=65% >
+  
+  ##### Strengths Page  
+  <img src='./public/wireframe_4.png' width=65% >
+
+  ##### Projects Page
+  <img src='./public/wireframe_2.png' width=65% >
+  
+  ##### Contact Page
+  <img src='./public/wireframe_3.png' width=65% >
+  
+  
 <!-- CONTACT -->
 ## Author
 👤 <b>Arion Askins</b>
