@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import ContactForm from '../components/ContactForm.js'
 import icons from '../icons.js'
+import axios from 'axios';
+import {parse, stringify, toJSON, fromJSON} from 'flatted';
+
+
 
 export default class Contact extends Component {
     constructor(props) {
@@ -50,14 +54,39 @@ export default class Contact extends Component {
         const user = this.state.name;
         alert('Hi, '+ user + "! I've received your message and I will reach out to you soon! Stay safe :)" + '\n' + '\n' + '-Arion A');
         
+                const urll = "https://t6ymzuwpzk.execute-api.us-east-1.amazonaws.com/default/messages";
+// error from CORS:::: Access to XMLHttpRequest at 'https://t6ymzuwpzk.execute-api.us-east-1.amazonaws.com/default/message' from origin 'http://localhost:3000' has been blocked by CORS policy: Request header field access-control-allow-origin is not allowed by Access-Control-Allow-Headers in preflight response.
+        const data = {name:this.state.name,
+                    email:this.state.email,
+                    phone:this.state.phone,
+                    message:this.state.message,
+                    nativeEvent: event
+        }
+                
+        axios.options(urll, {
+            body: data
+        })
+          .then((response) => {
+            console.log(response);
+            console.log("****");
+            console.log(response.config.body);
+            console.log("****");
+            console.log(response.config.body.email);
+          })
+          .then((error) => {
+            console.log((error));
+          });
+        
+
+
         this.setState({
             name: "",
             email: "",
             phone: "",
             message: ""
             });
-    }
 
+    }
 
     
     render() {

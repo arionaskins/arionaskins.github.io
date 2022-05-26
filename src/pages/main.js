@@ -20,9 +20,13 @@ export default class Main extends React.Component {
                             <button id='main-btn' className='btn button'>View My Work</button>
                         </a></span>
                         
-                        <button id='resume-btn' className='btn' type="button" onClick={this}><span id='download'><img src={icons.download} id='download' alt=''></img>
-                                                                                                                    </span>  resume</button> 
+                        <a href='https://drive.google.com/file/d/1C-yaYxSavCBDiRV2lfIz4wFldKgJzipL/view?usp=sharing'>
+                            <button id='resume-btn' className='btn' type="button" onClick={this}><span id='download'>
+                                <img src={icons.download} id='download' alt=''></img>
+                                   </span>  resume</button> </a>
                     </div>
+
+                    
                 </div>
 
                 <div className='social-container'>
@@ -48,7 +52,7 @@ export default class Main extends React.Component {
                         <div className="mouseY">
                             <div className="mouse-scroller"></div>
                         </div>
-                    </div>
+                </div>
 
             </div>
        );

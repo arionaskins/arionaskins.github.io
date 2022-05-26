@@ -6,7 +6,7 @@ export default class TypistHeader extends Component {
   render() {
     return (
       <Typist>
-            <span id='typist'>Data Scientist / Data Analyst / Web Developer</span>
+            <span id='typist'>Software Engineer / Fullstack Developer / Data Scientist </span>
       </Typist>
     );
   }

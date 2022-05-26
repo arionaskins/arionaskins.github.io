@@ -1,6 +1,7 @@
 // import pages and components to be rendered to screen
 import './styles/App.css';
-import NavBar from './components/NavBar/NavBar.js';
+import React from 'react';
+import NavBar from './components/NavBar/NavBar';
 import Main from './pages/main.js'
 import About from './pages/about.js';
 import Strengths from './pages/whatIdo/whatIdo.js';
@@ -10,12 +11,30 @@ import Footer from './components/Footer.js';
 import ScrollUpButton from "react-scroll-up-button";
 
 
-function App() {
+export default class App extends React.Component {
+  constructor(props) {
+      super(props);
+      this.state = { y: 0 }
+      
+      this.trackScroll = this.trackScroll.bind(this);
 
+  }
+  
+  trackScroll = e => {
+    this.setState({
+        y: window.scrollY
+    });
+    console.log(this.state);
+    console.log(window.scrollTop);
+  }
 
-  return (
-    <div className="App">
-      <NavBar />
+  render() { 
+    document.addEventListener('scroll', function(e) {
+      console.log(e.target.scrollY);
+    });
+      return ( 
+    <div className="App" onScroll={this.trackScroll}>
+      <NavBar srollPos={this.state.y} />
 
       <div className='pages-wrapper'>
       {/* Pages */}
@@ -33,15 +52,13 @@ function App() {
          
         </div>
          <ScrollUpButton 
-            StopPosition={0}
-            ShowAtPosition={111}
-            EasingType='easeOutCubic'
-            AnimationDuration={250}
-            ContainerClassName='arrow' />
+            
+            EasingType="easeOutBounce"
+            AnimationDuration={2}
+            ContainerClassName='arrow'
+            ShowAtPosition={111} />
       
     </div>
   );
 }
-
-export default App;
-
+}

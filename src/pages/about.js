@@ -27,7 +27,7 @@ export default class About extends React.Component {
                          or tie-dying old fabric :) I also enjoy relaxing by the beach and a new hobby I've discovered is hiking!</p>
 
                         <div className='about-resume-btm'>
-                            <span><a href='https://go.umd.edu/arion_askins_resume'><button id='resume'
+                            <span><a href='https://drive.google.com/file/d/1C-yaYxSavCBDiRV2lfIz4wFldKgJzipL/view?usp=sharing'><button id='resume'
                                                                                         className='btn button'
                                                                                          ><img src={icons.download} 
                                                                                             id='download' alt='download'></img>résumé</button></a></span>
