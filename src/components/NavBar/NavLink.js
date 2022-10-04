@@ -7,3 +7,5 @@ export const NavLink = (props) => {
                 id={props.id}>{props.name}</a>
     )
 }
+
+// chnage a.id {nav-about,,;} padding-bottom color when scrolled 
