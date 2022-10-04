@@ -18,23 +18,34 @@ export default class App extends React.Component {
       
       this.trackScroll = this.trackScroll.bind(this);
 
+  
   }
   
-  trackScroll = e => {
+  trackScroll = (e) => {
     this.setState({
         y: window.scrollY
     });
-    console.log(this.state);
-    console.log(window.scrollTop);
+    // console.log(this.state);
+    // console.log(window.scrollTop);
   }
 
+  NavTracking = (yPos) => {
+    // if yPos > get window.screenYSize
+  }
+
+
   render() { 
-    document.addEventListener('scroll', function(e) {
-      console.log(e.target.scrollY);
+    document.addEventListener('scroll', (e) => {
+      // console.log(window.scrollY);
+      this.setState({
+        y: window.scrollY
+      });
+      // console.log(this.state.y + "this . state");
     });
-      return ( 
+    
+    return ( 
     <div className="App" onScroll={this.trackScroll}>
-      <NavBar srollPos={this.state.y} />
+      <NavBar scrollPos={this.state.y} />
 
       <div className='pages-wrapper'>
       {/* Pages */}
@@ -60,5 +71,5 @@ export default class App extends React.Component {
       
     </div>
   );
-}
+};
 }

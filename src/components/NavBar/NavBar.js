@@ -7,7 +7,7 @@ const NavBar = (props) => {
 
            <nav className='nav-bar-container'>
                <div className='nav-menu'>
-                    <h3 id='scrollY'>{props.y}</h3>
+                    <h3 id='scrollY'>{props.scrollPos}</h3>
                     <NavLink  to='#about' id='nav-about' name={'About'} active='' />
                     <NavLink  to='#whatIdo' id='nav-whatIdo' name={'What I Do'} active='' />
                     <NavLink  to='#projects' id='nav-projects' name={'Projects'}  active=''/>

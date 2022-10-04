@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import ContactForm from '../components/ContactForm.js'
 import icons from '../icons.js'
 import axios from 'axios';
-import {parse, stringify, toJSON, fromJSON} from 'flatted';
 
 
 
@@ -52,21 +51,19 @@ export default class Contact extends Component {
     handleSubmit = event => {
         event.preventDefault();
         const user = this.state.name;
-        alert('Hi, '+ user + "! I've received your message and I will reach out to you soon! Stay safe :)" + '\n' + '\n' + '-Arion A');
         
-                const urll = "https://t6ymzuwpzk.execute-api.us-east-1.amazonaws.com/default/messages";
+                const urll = "localhost:5000/message";
 // error from CORS:::: Access to XMLHttpRequest at 'https://t6ymzuwpzk.execute-api.us-east-1.amazonaws.com/default/message' from origin 'http://localhost:3000' has been blocked by CORS policy: Request header field access-control-allow-origin is not allowed by Access-Control-Allow-Headers in preflight response.
         const data = {name:this.state.name,
-                    email:this.state.email,
-                    phone:this.state.phone,
-                    message:this.state.message,
-                    nativeEvent: event
+                    email:this.state.email,                   phone:this.state.phone,
+                    message:this.state.message
         }
                 
-        axios.options(urll, {
+        axios.post(urll, {
             body: data
         })
           .then((response) => {
+           
             console.log(response);
             console.log("****");
             console.log(response.config.body);
@@ -85,6 +82,9 @@ export default class Contact extends Component {
             phone: "",
             message: ""
             });
+
+            // eslint-disable-next-line no-useless-concat
+            alert('Hi, '+ user + "! I've received your message and I will reach out to you soon! Stay safe :)" + '\n' + '\n' + '-Arion A');
 
     }
 
@@ -109,3 +109,5 @@ export default class Contact extends Component {
     }
 }
 
+
+/////// downlaod SYSTS
