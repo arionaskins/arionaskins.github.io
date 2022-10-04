@@ -18,5 +18,5 @@ const NavBar = (props) => {
     }
 
 
-{/* // chnage a.id {nav-about,,;} padding-bottom color when scrolled  */}
+/* // chnage a.id {nav-about,,;} padding-bottom color when scrolled  */
 export default NavBar;
