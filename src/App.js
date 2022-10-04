@@ -15,33 +15,17 @@ export default class App extends React.Component {
   constructor(props) {
       super(props);
       this.state = { y: 0 }
-      
-      this.trackScroll = this.trackScroll.bind(this);
+ 
 
   
   }
-  
-  trackScroll = (e) => {
-    this.setState({
-        y: window.scrollY
-    });
-    // console.log(this.state);
-    // console.log(window.scrollTop);
-  }
-
+ 
   NavTracking = (yPos) => {
     // if yPos > get window.screenYSize
   }
 
 
   render() { 
-    document.addEventListener('scroll', (e) => {
-      // console.log(window.scrollY);
-      this.setState({
-        y: window.scrollY
-      });
-      // console.log(this.state.y + "this . state");
-    });
     
     return ( 
     <div className="App" onScroll={this.trackScroll}>
