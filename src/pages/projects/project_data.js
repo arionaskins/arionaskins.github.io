@@ -6,19 +6,19 @@ const project_data = [
         link: 'https://github.com/arionaskins/arionaskins.github.io'
     },
     {
-        project_name: "Prince George’s County Budget Analyzer ",
-        description: "A collaborative web app allowing users to view and analyze PG County government budget expenditures, deployed using Heroku.",
+        project_name: "PG County Expenditures Analyzer ",
+        description: "A web app allowing users to view and analyze PG County government budget expenditures, deployed using Heroku.",
         tag: 'Web Dev',
         link: 'https://github.com/arionaskins/team-central-services'
     },
     {
-        project_name: "Sun Sign Calculator",
-        description: "A heroku-deployed web app to calculate the astrology sign the sun was transiting the day you were born! ",
+        project_name: "NBA All-Star Synthesis",
+        description: "A heroku-deployed web app analyzing stats of historical and modern players to see who takes the title of All-Stars!",
         tag: 'Web Dev',
-        link: 'https://github.com/arionaskins/sun-sign-calculator'
+        link: 'https://github.com/arionaskins/nba-all-stars'
     },
     {
-        project_name: "United States Congress Relational Database",
+        project_name: "U.S. Congress Relational Database",
         description: "A Relational Database populated with around 550 records of data on US congressional sessions and officials. ",
         tag: 'Database/SQL',
         link: 'github.com/arionaskins/us-congress-db'

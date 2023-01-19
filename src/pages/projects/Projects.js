@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
     }
     render() {
         return (
-            <div className='projects' id='projects'>
+            <section className='projects' id='projects'>
                 <br />
                 <h2>Projects</h2>
 
@@ -26,7 +26,7 @@ export default class Projects extends React.Component {
                     ))}
         
                 </div>
-            </div>
+            </section>
         )
     }
 }

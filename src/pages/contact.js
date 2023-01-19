@@ -58,10 +58,10 @@ export default class Contact extends Component {
                     email:this.state.email,                   phone:this.state.phone,
                     message:this.state.message
         }
-                
+        const header = {Host: "http://awsarionaskinsportfoliobackend-env.eba-2e9n9mp2.us-east-1.elasticbeanstalk.com"};
         axios.post(urll, {
             body: data
-        })
+        }, header)
           .then((response) => {
            
             console.log(response);
@@ -91,7 +91,7 @@ export default class Contact extends Component {
     
     render() {
         return (
-            <div id='contact' className='contact'>
+            <section id='contact' className='contact'>
                 <br />
                 <h2 id='contact-hdr'>Leave Me A Message! <span><img id='contact-icon' alt='' src={icons.contact}></img></span></h2>
                 <p id='contact-subhdr'>I like constructive feedback :)</p>
@@ -104,7 +104,7 @@ export default class Contact extends Component {
                         handlePhoneChange = {this.handlePhoneChange}
                         handleMessageChange = {this.handleMessageChange} />
 
-            </div>
+            </section>
         )
     }
 }

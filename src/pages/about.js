@@ -5,12 +5,12 @@ export default class About extends React.Component {
 
     render() { 
         return ( 
-            <div className='about-container' id='about'>
+            <section className='about-container' id='about'>
                 <br />
                 <h2>About Me</h2>
                     <br />
                 <div className='about-sections-container'>
-                    <section className='about-section' id='about-left' >
+                    <article className='about-section' id='about-left' >
                         <p>Hi, I'm Arion!</p>
 
                         <p>I am a graduating senior at the University of Maryland majoring in Information Science with a minor 
@@ -32,9 +32,9 @@ export default class About extends React.Component {
                                                                                          ><img src={icons.download} 
                                                                                             id='download' alt='download'></img>résumé</button></a></span>
                         </div>
-                    </section>
+                    </article>
 
-                    <section className='about-section' id='about-right' >
+                    <aside className='about-section' id='about-right' >
                         <ul>
                             <li>
                             <p><span className='about-list-titles'>Age: </span>21</p> 
@@ -73,11 +73,11 @@ export default class About extends React.Component {
                                     </li>
                                 </ul>
                         </ul>
-                    </section> 
-                </div> 
+                    </aside> 
+                </div>
                 
                 <br />
-            </div>
+            </section>
          );
     }
 }

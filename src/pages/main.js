@@ -11,7 +11,7 @@ export default class Main extends React.Component {
 
     render() { 
         return ( 
-            <div id ='main' className='main-container'>
+            <main id ='main' className='main-container'>
                 <div className='landing' id='landing'>
                     <h1 id='title'>Arion Askins</h1>
                     <TypistHeader />        
@@ -21,7 +21,7 @@ export default class Main extends React.Component {
                         </a></span>
                         
                         <a href='https://drive.google.com/file/d/1C-yaYxSavCBDiRV2lfIz4wFldKgJzipL/view?usp=sharing'>
-                            <button id='resume-btn' className='btn' type="button" onClick={this}><span id='download'>
+                            <button id='resume-btn' className='btn' type="button" ><span id='download'>
                                 <img src={icons.download} id='download' alt=''></img>
                                    </span>  resume</button> </a>
                     </div>
@@ -54,7 +54,7 @@ export default class Main extends React.Component {
                         </div>
                 </div>
 
-            </div>
+            </main>
        );
     }
 }
